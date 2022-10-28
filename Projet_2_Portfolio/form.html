@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="styleform.css">
+</head>
+<body>
+
+<div class="contactbox">
+    <div class="title">
+        <h1>Contact</h1>
+    </div>
+        <div class="form">
+            <form action="process-form.php" method="post">
+
+            <label for="prenom">Prénom <span>*</span></label>
+            <input type="text" id="prenom" name="prenom" placeholder="20 caractères maximum" required>
+
+            <label for="nom">Nom <span>*</span></label>
+            <input type="text" id="nom" name="nom" placeholder="20 caractères maximum" required>
+
+            <label for="email">Adresse mail <span>*</span></label>
+            <input type="text" id="email" name="email" placeholder="ex : adresse.mail@gmail.com" required>
+
+            <label for="tel">Numéro de téléphone</label>
+            <input type="text" id="tel" name="tel" placeholder="ex : 06 01 02 03 04">
+            <br>    
+            <label for="sujet">Motif <span>*</span></label>
+            <select name="sujet" id="sujet" required>
+                <option value="">Veuillez sélectionner un motif</option>
+                <option value="partenariat">Partenariat</option>
+                <option value="rdv">Rendez-vous</option>
+                <option value="projets">Projets</option>
+                <option value="autre">Autre</option>
+            </select>
+
+            <label for="msg">Message <span>*</span></label>
+            <br>
+            <textarea id="msg" name="msg" placeholder="Veuillez insérer votre message. (300 caractères maximum)" rows="5" cols="40" required maxlength="300"></textarea>
+
+            <button>Envoyer</button>
+
+            </form>
+        </div>
+</div>
+
+</body>
+</html>

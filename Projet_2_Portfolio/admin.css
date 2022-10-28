@@ -1,0 +1,36 @@
+body {
+    background: url(image/contact-bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
+}
+
+h1 {
+    color:rgb(243, 243, 243);
+    text-align: center;
+    background-color: rgb(26, 26, 26);
+    border-radius: 20px;
+}
+
+h2 {
+    color: rgb(243, 243, 243);
+    text-align: center;
+    background-color: rgb(82, 82, 82);
+    border-radius: 20px;
+}
+
+ul {
+    background-color: rgb(177, 177, 177);
+    border-radius: 20px;
+    list-style-type: none;
+
+}
+
+p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:x-large;
+
+}
+
+

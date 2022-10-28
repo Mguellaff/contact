@@ -1,0 +1,129 @@
+body {
+    background-image: url("/contact/image/contact-bg.jpg");
+    background-size: cover;
+}
+
+header {
+    background: #fcf4ee;
+}
+
+h2,
+h3,
+h4 {
+    margin-left: 20px;
+}
+
+.exp {
+    margin-left: 20px;
+}
+
+.image {
+    border-radius: 50%;
+    width: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+header {
+    border-bottom: 1px black solid;
+}
+
+ul { 
+    margin: 0px auto 0; 
+    padding: 0; 
+    list-style: none; 
+    display: table;
+    width: 1300px;
+    text-align: center;
+  }
+  li { 
+    display: table-cell; 
+    position: relative; 
+    padding: 15px 0;
+  }
+
+header a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+ header a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: black;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+ header a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+#mail {
+    color: black;
+}
+
+#linkedin {
+    color: black;
+}
+
+.nom {
+    text-align: center;
+}
+
+.gauche {
+    margin-right: 900px;
+}
+
+.droite {
+    display: inline;
+}
+
+.france {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+#container {
+    white-space: nowrap;
+}
+
+#france {
+    display: inline;
+    margin-right: 25px;
+}
+
+#lieu {
+    display: inline; 
+    white-space: nowrap;
+}
+
+.contact-box {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #e9b9ab;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  .button {
+    background: transparent;
+    font-size: 0;
+  }
